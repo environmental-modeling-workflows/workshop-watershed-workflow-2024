@@ -32,8 +32,15 @@ To maximize the learning experience from the workshop, participants are encourag
 
 ## 3.2. Course files and containers
 To save time during the workshop, participants are expected to have the following material downloaded and set up on their computers:
-* Docker container: _link and instructions coming soon_
-* Demonstration files: _link coming soon_
+* `git clone https://github.com/environmental-modeling-workflows/workshop-watershed-workflow`
+* `cd workshop-watershed-workflow`
+* `docker run -it -v $(pwd):/home/jovyan/workdir:delegated -w /home/jovyan/workdir -p 8888:8888 metsi/watershed-workflow:rc2`
+* Open the link displayed in your browser
+
+Some common gotchas here include:
+* For OSX, make sure you clone the repository in your home directory somewhere -- otherwise docker does not have OSX's permission to see it.
+* Be sure to close any local jupyter lab engines; these will conflict with the jupyer lab engine running in the container and your browser will get confused.
+
 
 # 4. Workshop Outline
 
