@@ -52,9 +52,13 @@ _Get an overview of WW, its significance in watershed modeling and analysis, and
 
 _Dive into WW components like `RiverTree` and `SplitHucs` critical to mixed-polyhedral meshing, understanding their roles in meshing._
 
+In your jupyter notebook, navigate to `notebooks/key_object_classes.ipynb`
+
 * **Hands-On Session: Generating Stream-Aligned Mixed-Polyhedral Mesh:**
 
 _Apply your learning to generate a mixed-polyhedral mesh using the Coweeta watershed as a case study._
+
+In your jupyter notebook, navigate to `notebooks/mesh_mixed_element_coweeta.ipynb`
 
 * **Defining Regions and Labeled Sets:**  
 
