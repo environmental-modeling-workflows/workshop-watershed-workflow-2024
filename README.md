@@ -34,7 +34,7 @@ To maximize the learning experience from the workshop, participants are encourag
 To save time during the workshop, participants are expected to have the following material downloaded and set up on their computers:
 * `git clone https://github.com/environmental-modeling-workflows/workshop-watershed-workflow`
 * `cd workshop-watershed-workflow`
-* `docker run -it -v $(pwd):/home/jovyan/workdir:delegated -w /home/jovyan/workdir -p 8888:8888 metsi/watershed-workflow:rc2`
+* `. ./run_jupyter.sh` **OR** `docker run -it -v $(pwd):/home/jovyan/workdir:delegated -w /home/jovyan/workdir -p 8888:8888 metsi/watershed-workflow:rc2`
 * Open the link displayed in your browser
 
 Some common gotchas here include:
