@@ -38,7 +38,7 @@ To save time during the workshop, participants are expected to have the followin
   
   **OR**
 
-  `docker run -it -v $(pwd):/home/jovyan/workdir:delegated -w /home/jovyan/workdir -p 8888:8888 metsi/watershed-workflow:rc2`
+  `docker run -it -v $(pwd):/home/jovyan/workdir:delegated -w /home/jovyan/workdir -p 8888:8888 metsi/watershed-workflow:ideas-allhands23`
 * Open the link displayed in your browser
 
 Some common gotchas here include:
