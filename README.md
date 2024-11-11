@@ -3,37 +3,39 @@
 This workshop was developed for the IDEAS-Watersheds Phase 2 All Hands.
 
 Facilitators: Saubhagya Rathore and Ethan Coon  
-Date: December 10, 2023   
-Location: Stanford University 
+Date: November 15, 2024   
+Location: Denver, CO
 
 # 1. Learning Objectives
 
 At the end of the workshop, participants will be able to:
 
-* Describe the fundamental principles and components of Watershed Workflow (WW)
-* Perform watershed analysis and set up integrated hydrology models using WW
-* Generate stream-aligned mixed-polyhedral mesh
-* Manipulate WW objects to identify, debug, and resolve data inconsistencies and errors
+* Describe the fundamental principles and components of Watershed Workflow (WW).
+* Use different simplify and redensify methods and manipulate reaches to identify and resolve data inconsistencies and errors.
+* Leverage various refinement methods and constraints during triangulation to generate a high-quality mesh.
+* Define labeled sets in the river mesh at different levels of granularity.
+* Condition the river mesh using different methods.
 
 # 2. Prerequisites
 
 To maximize the learning experience from the workshop, participants are encouraged to have:
 * Essential Python skills and experience with Jupyter Notebook 
 * Familiarity with the `shapely` package, particularly for debugging
-* Basic knowledge of watershed hydrology
+* Basic knowledge of watershed hydrology modeling
 
 
 # 3. Materials and Resources
 
 ## 3.1. Readings
 * WW release paper: Coon, E.T., Shuai, P., 2022. Watershed Workflow: A toolset for parameterizing data-intensive, integrated hydrologic models. Environmental Modeling & Software: 105502. https://doi.org/10.1016/j.envsoft.2022.105502 
+* Stream-Aligned Meshing paper: Rathore, S. S., Coon, E. T., & Painter, S. L. (2024). A stream-aligned mixed polyhedral meshing strategy for integrated surface-subsurface hydrological models. Computers & Geosciences, 188, 105617. https://doi.org/10.1016/j.cageo.2024.105617 
 * Watershed Workflow Documentation: https://environmental-modeling-workflows.github.io/watershed-workflow/build/html/index.html
 * `shapely` User Manual: https://shapely.readthedocs.io/en/stable/manual.html 
 
 ## 3.2. Course files and containers
 To save time during the workshop, participants are expected to have the following material downloaded and set up on their computers:
-* `git clone https://github.com/environmental-modeling-workflows/workshop-watershed-workflow`
-* `cd workshop-watershed-workflow`
+* `git clone https://github.com/environmental-modeling-workflows/workshop-watershed-workflow-2024`
+* `cd workshop-watershed-workflow-2024`
 * `. ./run_jupyter.sh`
   
   **OR**
@@ -48,28 +50,34 @@ Some common gotchas here include:
 
 # 4. Workshop Outline
 
-* **Introduction to Watershed Workflow:**  
+* **Introduction:**  
 
-_Get an overview of WW, its significance in watershed modeling and analysis, and an understanding of its interface and basic functionalities._
+  * _Outline of the workshop_
+  * _Overview of the meshing workflow_
 
-* **Exploring Key Conceptual Objects:**  
+* **Module 1: Exploring Key Conceptual Objects:**  
 
-_Dive into WW components like `RiverTree` and `SplitHucs` critical to mixed-polyhedral meshing, understanding their roles in meshing._
+  * _Dive into WW components like `RiverTree` and `SplitHucs` critical to mixed-polyhedral meshing, understanding their roles in meshing._
+  * _Understand basics of manipulating WW objects._
 
-In your jupyter notebook, navigate to `notebooks/key_object_classes.ipynb`
+* **Module 2: Simplify and Redensify**
 
-* **Hands-On Session: Generating Stream-Aligned Mixed-Polyhedral Mesh:**
+  * _Explore different simplify and redensify methods including variable quad lengths._
+  * _Manipulate reaches to identify and resolve data inconsistencies and errors like dual intersection problem_
 
-_Apply your learning to generate a mixed-polyhedral mesh using the Coweeta watershed as a case study._
+* **Module 3: Mesh Generation**
 
-In your jupyter notebook, navigate to `notebooks/mesh_mixed_element_coweeta.ipynb`
+  * _Leverage various refinement methods and constraints during triangulation to generate a high-quality mesh._
+  * _Provide river widths using multiple methods._
+  * _Treat triangles that have all three vertices on the river mesh as valid._
 
-* **Defining Regions and Labeled Sets:**  
+* **Module 4: Labeled Sets**
 
-_Learn how to effectively manage surface and subsurface quantities by defining regions and labeled sets in WW, a key skill for nuanced watershed modeling._
+  * _Define labeled sets in the river mesh at different levels of granularity (e.g., straem network, stream order, individual reaches)._
 
-* **Troubleshooting and Manipulating Key Objects:** 
+* **Module 5: Hydrologic Conditioning**
 
-_Learn troubleshooting (debugging) and manipulating WW's key conceptual objects, enhancing your proficiency in handling complex watershed data._
+  * _Condition the river mesh using different methods._
+  * _Provide supplemental depth to the stream mesh._
 
-* **Discussion and Feedbacks** 
+* **Discussion and Feedback**
