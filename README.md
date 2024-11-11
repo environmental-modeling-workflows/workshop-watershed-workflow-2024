@@ -50,34 +50,36 @@ Some common gotchas here include:
 
 # 4. Workshop Outline
 
-* **Introduction:**  
+* **Introduction:** (10 minutes) 
 
   * _Outline of the workshop_
   * _Overview of the meshing workflow_
 
-* **Module 1: Exploring Key Conceptual Objects:**  
+* **Module 1: Exploring Key Conceptual Objects:** (20 minutes)
 
   * _Dive into WW components like `RiverTree` and `SplitHucs` critical to mixed-polyhedral meshing, understanding their roles in meshing._
   * _Understand basics of manipulating WW objects._
 
-* **Module 2: Simplify and Redensify**
+* **Module 2: Simplify and Redensify** (30 minutes)
 
   * _Explore different simplify and redensify methods including variable quad lengths._
   * _Manipulate reaches to identify and resolve data inconsistencies and errors like dual intersection problem_
 
-* **Module 3: Mesh Generation**
+* **Module 3: Mesh Generation** (30 minutes)
 
   * _Leverage various refinement methods and constraints during triangulation to generate a high-quality mesh._
   * _Provide river widths using multiple methods._
   * _Treat triangles that have all three vertices on the river mesh as valid._
 
-* **Module 4: Labeled Sets**
+* **Module 4: Labeled Sets** (10 minutes)
 
   * _Define labeled sets in the river mesh at different levels of granularity (e.g., straem network, stream order, individual reaches)._
 
-* **Module 5: Hydrologic Conditioning**
+* **Module 5: Hydrologic Conditioning** (20 minutes)
 
   * _Condition the river mesh using different methods._
   * _Provide supplemental depth to the stream mesh._
 
-* **Discussion and Feedback**
+* **Module 6: Office Hours** (1 hour)
+  * _Attendees work on their watersheds and troubleshoot issues with the help of the facilitators and fellow attendees._
+  * _Discussiona and feedback on the workshop._
