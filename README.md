@@ -85,5 +85,5 @@ Some common gotchas here include:
   * _Discussions and feedback on the workshop._
 
 
- # Acknowledgements:
+ ## Acknowledgements:
  Thanks to Rich Fiorella (LANL) for helping with Docker Container for the training.  
