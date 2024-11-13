@@ -69,11 +69,11 @@ Some common gotchas here include:
 
   * _Leverage various refinement methods and constraints during triangulation to generate a high-quality mesh._
   * _Provide river widths using multiple methods._
-  * _Treat triangles that have all three vertices on the river mesh using refinement and triangle splitting._
+  * _Troubleshoot mesh generation._
 
 * **Module 4: Labeled Sets** (10 minutes)
 
-  * _Define labeled sets in the river mesh at different levels of granularity (e.g., straem network, stream order, individual reaches)._
+  * _Define labeled sets in the river mesh at different levels of granularity (e.g., stream network, stream order, individual reaches)._
 
 * **Module 5: Hydrologic Conditioning** (20 minutes)
 
