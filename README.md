@@ -6,7 +6,7 @@ Facilitators: Saubhagya Rathore and Ethan Coon
 Date: November 15, 2024   
 Location: Denver, CO
 
-# 1. Learning Objectives
+# 1. Learning Objectives 
 
 At the end of the workshop, participants will be able to:
 
@@ -83,3 +83,7 @@ Some common gotchas here include:
 * **Module 6: Office Hours** (1 hour)
   * _Attendees work on their watersheds and troubleshoot issues with the help of the facilitators and fellow attendees._
   * _Discussions and feedback on the workshop._
+
+
+ # Acknowledgements:
+ Thanks to Rich Fiorella (LANL) for helping with Docker Container for the training.  
