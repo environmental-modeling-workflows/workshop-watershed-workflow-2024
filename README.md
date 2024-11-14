@@ -6,7 +6,7 @@ Facilitators: Saubhagya Rathore and Ethan Coon
 Date: November 15, 2024   
 Location: Denver, CO
 
-# 1. Learning Objectives
+# 1. Learning Objectives 
 
 At the end of the workshop, participants will be able to:
 
@@ -32,7 +32,7 @@ To maximize the learning experience from the workshop, participants are encourag
 * Watershed Workflow Documentation: https://environmental-modeling-workflows.github.io/watershed-workflow/build/html/index.html
 * `shapely` User Manual: https://shapely.readthedocs.io/en/stable/manual.html 
 
-## 3.2. Course files and containers
+## 3.2. Course files and containers (to be updated)
 To save time during the workshop, participants are expected to have the following material downloaded and set up on their computers:
 * `git clone https://github.com/environmental-modeling-workflows/workshop-watershed-workflow-2024`
 * `cd workshop-watershed-workflow-2024`
@@ -69,11 +69,11 @@ Some common gotchas here include:
 
   * _Leverage various refinement methods and constraints during triangulation to generate a high-quality mesh._
   * _Provide river widths using multiple methods._
-  * _Treat triangles that have all three vertices on the river mesh as valid._
+  * _Troubleshoot mesh generation._
 
 * **Module 4: Labeled Sets** (10 minutes)
 
-  * _Define labeled sets in the river mesh at different levels of granularity (e.g., straem network, stream order, individual reaches)._
+  * _Define labeled sets in the river mesh at different levels of granularity (e.g., stream network, stream order, individual reaches)._
 
 * **Module 5: Hydrologic Conditioning** (20 minutes)
 
@@ -82,4 +82,8 @@ Some common gotchas here include:
 
 * **Module 6: Office Hours** (1 hour)
   * _Attendees work on their watersheds and troubleshoot issues with the help of the facilitators and fellow attendees._
-  * _Discussiona and feedback on the workshop._
+  * _Discussions and feedback on the workshop._
+
+
+ ## Acknowledgements:
+ Thanks to Rich Fiorella (LANL) for helping with Docker Container for the training.  
