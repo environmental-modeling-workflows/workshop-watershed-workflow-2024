@@ -32,7 +32,7 @@ To maximize the learning experience from the workshop, participants are encourag
 * Watershed Workflow Documentation: https://environmental-modeling-workflows.github.io/watershed-workflow/build/html/index.html
 * `shapely` User Manual: https://shapely.readthedocs.io/en/stable/manual.html 
 
-## 3.2. Course files and containers (to be updated)
+## 3.2. Course files and containers
 To save time during the workshop, participants are expected to have the following material downloaded and set up on their computers:
 * `git clone https://github.com/environmental-modeling-workflows/workshop-watershed-workflow-2024`
 * `cd workshop-watershed-workflow-2024`
