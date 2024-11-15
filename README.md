@@ -50,10 +50,10 @@ Some common gotchas here include:
 
 # 4. Workshop Outline
 
-* **Introduction:** (10 minutes) 
+* **Introduction:** (20 minutes) 
 
   * _Outline of the workshop_
-  * _Overview of the meshing workflow_
+  * _Watershed_Workflow_Introduction_
 
 * **Module 1: Exploring Key Conceptual Objects:** (20 minutes)
 
@@ -79,8 +79,11 @@ Some common gotchas here include:
 
   * _Condition the river mesh using different methods._
   * _Provide supplemental depth to the stream mesh._
+ 
+* **Module 6: Full Workflow** (30 mins)
+  * _Execute full workflow_
 
-* **Module 6: Office Hours** (1 hour)
+* **Module 6: Office Hours** (20 mins)
   * _Attendees work on their watersheds and troubleshoot issues with the help of the facilitators and fellow attendees._
   * _Discussions and feedback on the workshop._
 
