@@ -36,6 +36,9 @@ To maximize the learning experience from the workshop, participants are encourag
 To save time during the workshop, participants are expected to have the following material downloaded and set up on their computers:
 * `git clone https://github.com/environmental-modeling-workflows/workshop-watershed-workflow-2024`
 * `cd workshop-watershed-workflow-2024`
+
+Next, run the container to get a working Watershed Workflow master installation (or use your own):
+
 * `. ./run_jupyter.sh`
   
   **OR**
